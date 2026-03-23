@@ -25,7 +25,7 @@ Key results:
 
 ### 1 — Real-world test · Leader-follower tracking
 
-https://github.com/vinny-juniors/wheelchair-fleet/raw/main/docs/test_chaise1.mp4
+https://github.com/NVJRs/wheelchair-fleet/raw/main/docs/test_chaise1.mp4
 
 > Follower wheelchair autonomously tracks the lead robot in real corridor conditions. Tracking precision: ±10 cm, stability > 92%.
 
@@ -33,7 +33,7 @@ https://github.com/vinny-juniors/wheelchair-fleet/raw/main/docs/test_chaise1.mp4
 
 ### 2 — MATLAB + CoppeliaSim simulation · Fleet navigation
 
-https://github.com/vinny-juniors/wheelchair-fleet/raw/main/docs/simulation_matlab_coppelia.MP4
+https://github.com/NVJRs/wheelchair-fleet/raw/main/docs/simulation_matlab_coppelia.MP4
 
 > Full fleet navigation simulation built in MATLAB, synchronized in real time with CoppeliaSim. Validates the leader-follower control law before deployment on hardware.
 
@@ -41,7 +41,7 @@ https://github.com/vinny-juniors/wheelchair-fleet/raw/main/docs/simulation_matla
 
 ### 3 — Custom velocity operator · QR code angle estimation
 
-https://github.com/vinny-juniors/wheelchair-fleet/raw/main/docs/operator_velocity_qrcode.MP4
+https://github.com/NVJRs/wheelchair-fleet/raw/main/docs/operator_velocity_qrcode.MP4
 
 > Custom ROS2 operator designed to capture the leader's velocity data and compute the heading angle from QR code detection — feeding the PD controller with accurate angular correction in real time.
 
@@ -150,7 +150,7 @@ pip install opencv-contrib-python --break-system-packages
 ### Build & Run
 
 ```bash
-git clone https://github.com/vinny-juniors/wheelchair-fleet.git
+git clone https://github.com/NVJRs/wheelchair-fleet.git
 cd wheelchair-fleet
 
 colcon build --symlink-install
@@ -180,7 +180,7 @@ ros2 launch wheelchair_bringup follower_viz.launch.py
 **Vinny Juniors** — Engineering student, Robotics & Mechatronics · JUNIA-ISEN Lille
 📧 vinnyjuniors.ngon@student.junia.com
 🔗 [linkedin.com/in/vinny-ngon-708253342](https://linkedin.com/in/vinny-ngon-708253342)
-
+🐙 [github.com/NVJRs](https://github.com/NVJRs)
 
 ---
 
